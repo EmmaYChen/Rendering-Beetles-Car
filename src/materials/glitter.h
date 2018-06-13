@@ -14,7 +14,6 @@
 #include "shape.h"
 #include "spectrum.h"
 #include "core/reflection.h"
-// #include "sampleHSL.h"
 
 namespace pbrt {
 
@@ -50,4 +49,4 @@ class flakeBxDF : public BxDF {
 
 }  // namespace pbrt
 
-#endif  // PBRT_CORE_REFLECTION_H
+#endif  // PBRT_CORE_flakeBXDN_H

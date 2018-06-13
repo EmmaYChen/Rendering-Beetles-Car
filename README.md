@@ -1,4 +1,4 @@
-CS348 Final Project < Glitters> 
+CS348 Final Project < Glittering Beetles> 
 ===============
 Author: Yao Chen, Xinru Hua
 
@@ -26,8 +26,8 @@ Project result:
 How to use it
 -------------
 In the command line tool
-run : cmake  [path-to-pbrt]
-make: make j8
+* run : cmake  [path-to-pbrt]
+* make: make j8
 
 
 
