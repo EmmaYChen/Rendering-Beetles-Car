@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/ext/ptex/src/ptex/PtexHalf.h
+PtexInt.h
+../src/ext/ptex/src/ptex/PtexInt.h
+PtexVersion.h
+../src/ext/ptex/src/ptex/PtexVersion.h
+
+../src/ext/ptex/src/ptex/PtexInt.h
+stdint.h
+-
+stdint.h
+-
+
+../src/ext/ptex/src/ptex/PtexVersion.h
+
+../src/ext/ptex/src/ptex/Ptexture.h
+PtexInt.h
+../src/ext/ptex/src/ptex/PtexInt.h
+ostream
+-
+PtexVersion.h
+../src/ext/ptex/src/ptex/PtexVersion.h
+
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/ptex/src/tests/wtest.cpp
+iostream
+-
+stdlib.h
+-
+algorithm
+-
+Ptexture.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/ptex/src/tests/Ptexture.h
+PtexHalf.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/ptex/src/tests/PtexHalf.h
+string.h
+-
+

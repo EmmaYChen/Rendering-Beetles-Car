@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/half.cpp
+assert.h
+-
+half.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/half.h
+toFloat.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/toFloat.h
+eLut.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/eLut.h
+
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/half.h
+halfExport.h
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/halfExport.h
+iostream
+-
+
+/Users/chenyao/Documents/GitHub/beetles-carcar/src/ext/openexr/IlmBase/Half/halfExport.h
+
+src/ext/openexr/IlmBase/Half/eLut.h
+
+src/ext/openexr/IlmBase/Half/toFloat.h
+
