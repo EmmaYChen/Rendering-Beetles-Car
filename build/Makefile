@@ -1076,6 +1076,33 @@ src/cameras/environment.cpp.s:
 	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/cameras/environment.cpp.s
 .PHONY : src/cameras/environment.cpp.s
 
+src/cameras/lightfield.o: src/cameras/lightfield.cpp.o
+
+.PHONY : src/cameras/lightfield.o
+
+# target to build an object file
+src/cameras/lightfield.cpp.o:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/cameras/lightfield.cpp.o
+.PHONY : src/cameras/lightfield.cpp.o
+
+src/cameras/lightfield.i: src/cameras/lightfield.cpp.i
+
+.PHONY : src/cameras/lightfield.i
+
+# target to preprocess a source file
+src/cameras/lightfield.cpp.i:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/cameras/lightfield.cpp.i
+.PHONY : src/cameras/lightfield.cpp.i
+
+src/cameras/lightfield.s: src/cameras/lightfield.cpp.s
+
+.PHONY : src/cameras/lightfield.s
+
+# target to generate assembly for a file
+src/cameras/lightfield.cpp.s:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/cameras/lightfield.cpp.s
+.PHONY : src/cameras/lightfield.cpp.s
+
 src/cameras/orthographic.o: src/cameras/orthographic.cpp.o
 
 .PHONY : src/cameras/orthographic.o
@@ -2858,6 +2885,33 @@ src/materials/disney.cpp.s:
 	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/disney.cpp.s
 .PHONY : src/materials/disney.cpp.s
 
+src/materials/flake.o: src/materials/flake.cpp.o
+
+.PHONY : src/materials/flake.o
+
+# target to build an object file
+src/materials/flake.cpp.o:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/flake.cpp.o
+.PHONY : src/materials/flake.cpp.o
+
+src/materials/flake.i: src/materials/flake.cpp.i
+
+.PHONY : src/materials/flake.i
+
+# target to preprocess a source file
+src/materials/flake.cpp.i:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/flake.cpp.i
+.PHONY : src/materials/flake.cpp.i
+
+src/materials/flake.s: src/materials/flake.cpp.s
+
+.PHONY : src/materials/flake.s
+
+# target to generate assembly for a file
+src/materials/flake.cpp.s:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/flake.cpp.s
+.PHONY : src/materials/flake.cpp.s
+
 src/materials/fourier.o: src/materials/fourier.cpp.o
 
 .PHONY : src/materials/fourier.o
@@ -2911,6 +2965,33 @@ src/materials/glass.s: src/materials/glass.cpp.s
 src/materials/glass.cpp.s:
 	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/glass.cpp.s
 .PHONY : src/materials/glass.cpp.s
+
+src/materials/glitter.o: src/materials/glitter.cpp.o
+
+.PHONY : src/materials/glitter.o
+
+# target to build an object file
+src/materials/glitter.cpp.o:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/glitter.cpp.o
+.PHONY : src/materials/glitter.cpp.o
+
+src/materials/glitter.i: src/materials/glitter.cpp.i
+
+.PHONY : src/materials/glitter.i
+
+# target to preprocess a source file
+src/materials/glitter.cpp.i:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/glitter.cpp.i
+.PHONY : src/materials/glitter.cpp.i
+
+src/materials/glitter.s: src/materials/glitter.cpp.s
+
+.PHONY : src/materials/glitter.s
+
+# target to generate assembly for a file
+src/materials/glitter.cpp.s:
+	$(MAKE) -f CMakeFiles/pbrt.dir/build.make CMakeFiles/pbrt.dir/src/materials/glitter.cpp.s
+.PHONY : src/materials/glitter.cpp.s
 
 src/materials/hair.o: src/materials/hair.cpp.o
 
@@ -4834,6 +4915,9 @@ help:
 	@echo "... src/cameras/environment.o"
 	@echo "... src/cameras/environment.i"
 	@echo "... src/cameras/environment.s"
+	@echo "... src/cameras/lightfield.o"
+	@echo "... src/cameras/lightfield.i"
+	@echo "... src/cameras/lightfield.s"
 	@echo "... src/cameras/orthographic.o"
 	@echo "... src/cameras/orthographic.i"
 	@echo "... src/cameras/orthographic.s"
@@ -5032,12 +5116,18 @@ help:
 	@echo "... src/materials/disney.o"
 	@echo "... src/materials/disney.i"
 	@echo "... src/materials/disney.s"
+	@echo "... src/materials/flake.o"
+	@echo "... src/materials/flake.i"
+	@echo "... src/materials/flake.s"
 	@echo "... src/materials/fourier.o"
 	@echo "... src/materials/fourier.i"
 	@echo "... src/materials/fourier.s"
 	@echo "... src/materials/glass.o"
 	@echo "... src/materials/glass.i"
 	@echo "... src/materials/glass.s"
+	@echo "... src/materials/glitter.o"
+	@echo "... src/materials/glitter.i"
+	@echo "... src/materials/glitter.s"
 	@echo "... src/materials/hair.o"
 	@echo "... src/materials/hair.i"
 	@echo "... src/materials/hair.s"

@@ -14,7 +14,7 @@
 
     - Redistributions in binary form must reproduce the above copyright
       notice, this list of conditions and the following disclaimer in the
-      documentation and/or other materials provided with the distribution.
+      documentation and/or other ials provided with the distribution.
 
     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
     IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
@@ -47,6 +47,7 @@
 #include "cameras/orthographic.h"
 #include "cameras/perspective.h"
 #include "cameras/realistic.h"
+#include "cameras/lightfield.h"
 #include "filters/box.h"
 #include "filters/gaussian.h"
 #include "filters/mitchell.h"
@@ -81,6 +82,7 @@
 #include "materials/subsurface.h"
 #include "materials/translucent.h"
 #include "materials/uber.h"
+#include "materials/flake.h"
 #include "samplers/halton.h"
 #include "samplers/maxmin.h"
 #include "samplers/random.h"
@@ -557,6 +559,8 @@ std::shared_ptr<Material> MakeMaterial(const std::string &name,
         material = CreateHairMaterial(mp);
     else if (name == "disney")
         material = CreateDisneyMaterial(mp);
+    else if (name == "flake")
+        material = CreateFlakeMaterial(mp);
     else if (name == "mix") {
         std::string m1 = mp.FindString("namedmaterial1", "");
         std::string m2 = mp.FindString("namedmaterial2", "");
@@ -802,6 +806,9 @@ Camera *MakeCamera(const std::string &name, const ParamSet &paramSet,
     if (name == "perspective")
         camera = CreatePerspectiveCamera(paramSet, animatedCam2World, film,
                                          mediumInterface.outside);
+    else if (name == "lightfield")
+        camera = CreateLightfieldCamera(paramSet, animatedCam2World, film,
+                                           mediumInterface.outside);
     else if (name == "orthographic")
         camera = CreateOrthographicCamera(paramSet, animatedCam2World, film,
                                           mediumInterface.outside);

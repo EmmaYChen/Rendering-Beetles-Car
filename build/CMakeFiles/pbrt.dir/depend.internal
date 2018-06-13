@@ -78,6 +78,35 @@ CMakeFiles/pbrt.dir/src/cameras/environment.cpp.o
  /Users/chenyao/Documents/GitHub/beetles-carcar/src/cameras/environment.cpp
  src/ext/glog/glog/logging.h
  src/ext/glog/glog/vlog_is_on.h
+CMakeFiles/pbrt.dir/src/cameras/lightfield.cpp.o
+ ../src/cameras/lightfield.h
+ ../src/core/camera.h
+ ../src/core/error.h
+ ../src/core/fileutil.h
+ ../src/core/film.h
+ ../src/core/filter.h
+ ../src/core/geometry.h
+ ../src/core/interaction.h
+ ../src/core/light.h
+ ../src/core/material.h
+ ../src/core/medium.h
+ ../src/core/memory.h
+ ../src/core/parallel.h
+ ../src/core/paramset.h
+ ../src/core/pbrt.h
+ ../src/core/quaternion.h
+ ../src/core/rng.h
+ ../src/core/sampler.h
+ ../src/core/sampling.h
+ ../src/core/spectrum.h
+ ../src/core/stats.h
+ ../src/core/stringprint.h
+ ../src/core/texture.h
+ ../src/core/transform.h
+ ../src/ext/glog/src/glog/log_severity.h
+ /Users/chenyao/Documents/GitHub/beetles-carcar/src/cameras/lightfield.cpp
+ src/ext/glog/glog/logging.h
+ src/ext/glog/glog/vlog_is_on.h
 CMakeFiles/pbrt.dir/src/cameras/orthographic.cpp.o
  ../src/cameras/orthographic.h
  ../src/core/camera.h
@@ -171,6 +200,7 @@ CMakeFiles/pbrt.dir/src/core/api.cpp.o
  ../src/accelerators/bvh.h
  ../src/accelerators/kdtreeaccel.h
  ../src/cameras/environment.h
+ ../src/cameras/lightfield.h
  ../src/cameras/orthographic.h
  ../src/cameras/perspective.h
  ../src/cameras/realistic.h
@@ -215,8 +245,10 @@ CMakeFiles/pbrt.dir/src/core/api.cpp.o
  ../src/lights/projection.h
  ../src/lights/spot.h
  ../src/materials/disney.h
+ ../src/materials/flake.h
  ../src/materials/fourier.h
  ../src/materials/glass.h
+ ../src/materials/glitter.h
  ../src/materials/hair.h
  ../src/materials/kdsubsurface.h
  ../src/materials/matte.h
@@ -1524,6 +1556,30 @@ CMakeFiles/pbrt.dir/src/materials/disney.cpp.o
  /Users/chenyao/Documents/GitHub/beetles-carcar/src/materials/disney.cpp
  src/ext/glog/glog/logging.h
  src/ext/glog/glog/vlog_is_on.h
+CMakeFiles/pbrt.dir/src/materials/flake.cpp.o
+ ../src/core/error.h
+ ../src/core/fileutil.h
+ ../src/core/geometry.h
+ ../src/core/interaction.h
+ ../src/core/material.h
+ ../src/core/medium.h
+ ../src/core/memory.h
+ ../src/core/microfacet.h
+ ../src/core/paramset.h
+ ../src/core/pbrt.h
+ ../src/core/quaternion.h
+ ../src/core/reflection.h
+ ../src/core/shape.h
+ ../src/core/spectrum.h
+ ../src/core/stringprint.h
+ ../src/core/texture.h
+ ../src/core/transform.h
+ ../src/ext/glog/src/glog/log_severity.h
+ ../src/materials/flake.h
+ ../src/materials/glitter.h
+ /Users/chenyao/Documents/GitHub/beetles-carcar/src/materials/flake.cpp
+ src/ext/glog/glog/logging.h
+ src/ext/glog/glog/vlog_is_on.h
 CMakeFiles/pbrt.dir/src/materials/fourier.cpp.o
  ../src/core/error.h
  ../src/core/fileutil.h
@@ -1569,6 +1625,38 @@ CMakeFiles/pbrt.dir/src/materials/glass.cpp.o
  ../src/ext/glog/src/glog/log_severity.h
  ../src/materials/glass.h
  /Users/chenyao/Documents/GitHub/beetles-carcar/src/materials/glass.cpp
+ src/ext/glog/glog/logging.h
+ src/ext/glog/glog/vlog_is_on.h
+CMakeFiles/pbrt.dir/src/materials/glitter.cpp.o
+ ../src/core/error.h
+ ../src/core/fileutil.h
+ ../src/core/geometry.h
+ ../src/core/interaction.h
+ ../src/core/interpolation.h
+ ../src/core/light.h
+ ../src/core/material.h
+ ../src/core/medium.h
+ ../src/core/memory.h
+ ../src/core/microfacet.h
+ ../src/core/paramset.h
+ ../src/core/pbrt.h
+ ../src/core/primitive.h
+ ../src/core/quaternion.h
+ ../src/core/reflection.h
+ ../src/core/rng.h
+ ../src/core/sampler.h
+ ../src/core/sampling.h
+ ../src/core/scene.h
+ ../src/core/shape.h
+ ../src/core/spectrum.h
+ ../src/core/stats.h
+ ../src/core/stringprint.h
+ ../src/core/texture.h
+ ../src/core/transform.h
+ ../src/ext/glog/src/glog/log_severity.h
+ ../src/materials/sampleHSL.h
+ /Users/chenyao/Documents/GitHub/beetles-carcar/src/materials/glitter.cpp
+ /Users/chenyao/Documents/GitHub/beetles-carcar/src/materials/glitter.h
  src/ext/glog/glog/logging.h
  src/ext/glog/glog/vlog_is_on.h
 CMakeFiles/pbrt.dir/src/materials/hair.cpp.o
