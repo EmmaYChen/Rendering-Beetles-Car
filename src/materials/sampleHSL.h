@@ -62,6 +62,7 @@ float HueToRGB(float v1, float v2, float vH) {
     return v1;
  }
 
+// Transform hsl to rgb
 RGB HSLToRGB(HSL hsl) {
     unsigned char r = 0;
     unsigned char g = 0;
@@ -83,14 +84,18 @@ RGB HSLToRGB(HSL hsl) {
     return RGB(r, g, b);
 }
 
+// sample from the color table
 Point3f SampleFromHSL(){
     float s = 1;
     float l = 0.5;
     int H = (int)(6*(rand()% 60));
+    // If we want to decrease flakes of one certain color
+    // if (H<=30&& H>=0) return Point3f(1,1,1);
     RGB color_rgb = HSLToRGB(HSL(H,s,l));
     return Point3f(color_rgb.R,color_rgb.G,color_rgb.B);
 }
 
+// return the average color of the table
 Point3f AverageColor(){
     Point3f average = Point3f(0,0,0);
     float s = 1;
