@@ -1,4 +1,4 @@
-CS348 Final Project < Glittering Beetles> 
+CS348 Final Project： Glittering Beetles Car
 ===============
 Author: Yao Chen, Xinru Hua
 
